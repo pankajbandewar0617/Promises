@@ -157,11 +157,11 @@ getBoard(task3)
 
 function task3(board) {
   let id = board['id'];
-  getLists(id, cardID) 
-    function cardID(data){
-      for (let i in data) {
-        var listID = data[i]['id']
-        getCards(listID, console.log)
-      }
+  getLists(id, cardID)
+  function cardID(data) {
+    for (let i in data) {
+      var listID = data[i]['id']
+      getCards(listID, console.log)
+    }
   }
 }
